@@ -2,7 +2,6 @@
 
 It's just a wrapper to access the keychain for CRUD operations, so its more safe to save the user password in Keychain rather than UserDefaults.
 
-in default way to save the user name, we write this 
 ```Swift
   func testSavedPassword() {
         let service = "ServiceName"
